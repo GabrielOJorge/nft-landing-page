@@ -8,14 +8,43 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
     <title>NextGen</title>
     
+    <link rel="stylesheet" href="src/style/generic/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/settings/color.css">
+    <link rel="stylesheet" href="src/style/elements/base.css">
+
+    <link rel="stylesheet" href="src/components/main-header.css">
+    <link rel="stylesheet" href="src/components/main-logo.css">
+    <link rel="stylesheet" href="src/components/main-btn.css">
   </head>
   <body>
     <div id="app">
+      <header class="main-header">
+        <h1 class="logo">Next<span class="gen">Gen</span></h1>
 
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Marketplace</a>
+            </li>
+            <li>
+              <a href="#">Artist</a>
+            </li>
+            <li>
+             <a href="#">Community</a> 
+            </li>
+          </ul>
+        </nav>
+
+        <button class="main-btn">Log in</button>
+        <button class="main-btn -no-bg">Sign up</button>
+      </header>
     </div>
   </body>
 </html>
