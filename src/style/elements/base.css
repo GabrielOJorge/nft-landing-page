@@ -21,3 +21,11 @@ a {
 a:hover {
   color: var(--fuchsia-500);
 }
+
+button {
+  cursor: pointer;
+}
+
+#app {
+  width: min(100%, 166rem);
+}
