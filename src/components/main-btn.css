@@ -1,0 +1,16 @@
+.main-btn {
+  background: linear-gradient(var(--violet-600) 0%, var(--fuchsia-500) 100%);
+  color: var(--gray-50);
+  border-style: none;
+  padding: 15px 43px;
+  text-transform: capitalize;
+
+  font-size: clamp(1.6rem, 1.9rem, 2vw);
+}
+
+.main-btn.-no-bg {
+  background: none;
+  border: .2rem solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(var(--violet-600) 0%, var(--fuchsia-500) 100%);
+}
