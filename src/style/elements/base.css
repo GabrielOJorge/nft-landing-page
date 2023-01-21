@@ -10,3 +10,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: var(--gray-50);
 }
+
+a {
+  font-size: clamp(1.6rem, 1.9rem, 2vw);
+  color: var(--gray-50);
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+a:hover {
+  color: var(--fuchsia-500);
+}
