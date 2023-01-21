@@ -1,0 +1,36 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 5.6rem;
+}
+
+.main-header div:last-child button:first-of-type {
+  margin-right: 1.7rem;
+}
+
+.main-header a {
+  position: relative;
+}
+
+.main-header a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2.5rem;
+  background: none;
+  width: 100%;
+  height: .6rem;
+  border-radius: 100%;
+  transition: all .2s ease;
+}
+
+.main-header a:hover::after {
+  background: var(--indigo-900);
+}
