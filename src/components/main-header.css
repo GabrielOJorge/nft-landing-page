@@ -16,11 +16,11 @@
   gap: 1.7rem;
 }
 
-.main-header a {
+.main-header nav a {
   position: relative;
 }
 
-.main-header a::after {
+.main-header nav a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -32,6 +32,10 @@
   transition: all .2s ease;
 }
 
-.main-header a:hover::after {
+.main-header nav a:hover {
+  color: var(--fuchsia-500);
+}
+
+.main-header nav a:hover::after {
   background: var(--indigo-900);
 }
