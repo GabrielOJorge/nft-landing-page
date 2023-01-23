@@ -1,7 +1,7 @@
 .main-logo {
   font-weight: 800;
   font-size: clamp(3rem, 3.6rem, 3vw);
-  background: linear-gradient(var(--violet-600) 0%, var(--fuchsia-500) 100%);
+  background: var(--gradient-violet-fuchsia);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
