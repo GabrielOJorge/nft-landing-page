@@ -1,18 +1,18 @@
-.main-header {
+.main-header, .main-header ul, .main-header div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
 }
 
-.main-header > nav > ul {
-  display: flex;
-  align-items: center;
+.main-header {
+  justify-content: space-between;
+}
+
+.main-header ul {
   gap: 5.6rem;
 }
 
-.main-header div:last-child button:first-of-type {
-  margin-right: 1.7rem;
+.main-header div:last-child {
+  gap: 1.7rem;
 }
 
 .main-header a {
