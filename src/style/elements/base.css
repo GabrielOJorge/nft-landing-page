@@ -16,10 +16,7 @@ a {
   color: var(--gray-50);
   text-decoration: none;
   transition: all .2s ease;
-}
-
-a:hover {
-  color: var(--fuchsia-500);
+  cursor: pointer;
 }
 
 button {
