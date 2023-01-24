@@ -8,6 +8,10 @@
   margin-top: 3.8rem;
 }
 
+.main-header nav {
+  display: none;
+}
+
 .main-header ul {
   gap: 5.6rem;
 }
@@ -38,4 +42,10 @@
 
 .main-header nav a:hover::after {
   background: var(--indigo-900);
+}
+
+@media (min-width: 1200px) {
+  .main-header nav {
+    display: initial;
+  }
 }
