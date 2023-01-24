@@ -16,32 +16,8 @@
   gap: 5.6rem;
 }
 
-.main-header div:last-child {
+.btn-wrapper {
   gap: 1.7rem;
-}
-
-.main-header nav a {
-  position: relative;
-}
-
-.main-header nav a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 2.5rem;
-  background: none;
-  width: 100%;
-  height: .6rem;
-  border-radius: 100%;
-  transition: all .2s ease;
-}
-
-.main-header nav a:hover {
-  color: var(--fuchsia-500);
-}
-
-.main-header nav a:hover::after {
-  background: var(--indigo-900);
 }
 
 @media (min-width: 1200px) {

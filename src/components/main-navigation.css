@@ -1,0 +1,23 @@
+.main-navigation a {
+  position: relative;
+}
+
+.main-navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2.5rem;
+  background: none;
+  width: 100%;
+  height: .6rem;
+  border-radius: 100%;
+  transition: all .2s ease;
+}
+
+.main-navigation a:hover {
+  color: var(--fuchsia-500);
+}
+
+.main-navigation a:hover::after {
+  background: var(--indigo-900);
+}
