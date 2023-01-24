@@ -17,15 +17,18 @@
     <link rel="stylesheet" href="src/style/elements/base.css">
 
     <link rel="stylesheet" href="src/components/main-header.css">
-    <link rel="stylesheet" href="src/components/main-logo.css">
+    <link rel="stylesheet" href="src/components/main-navigation.css">
+    <link rel="stylesheet" href="src/components/hamburger-menu.css">
     <link rel="stylesheet" href="src/components/main-btn.css">
   </head>
   <body>
     <div id="app">
       <header class="main-header">
-        <h1 class="logo">Next<span class="gen">Gen</span></h1>
+        <a class="main-logo" href="#">
+          <img src="src/assets/images/logo.png" alt="">
+        </a>
 
-        <nav>
+        <nav class="main-navigation">
           <ul>
             <li>
               <a href="#">Home</a>
@@ -42,7 +45,7 @@
           </ul>
         </nav>
 
-        <div>
+        <div class="btn-wrapper">
           <button class="main-btn">Log in</button>
           <button class="main-btn -no-bg">Sign up</button>
         </div>
