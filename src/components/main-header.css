@@ -8,8 +8,8 @@
   margin-top: 3.8rem;
 }
 
-.main-header nav {
-  display: none;
+.main-header .logo {
+  z-index: 1;
 }
 
 .main-header ul {
@@ -17,11 +17,16 @@
 }
 
 .btn-wrapper {
-  gap: 1.7rem;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.main-header nav, .main-header .main-btn {
+  display: none;
 }
 
 @media (min-width: 1200px) {
-  .main-header nav {
+  .main-header nav, .main-header .main-btn  {
     display: initial;
   }
 }

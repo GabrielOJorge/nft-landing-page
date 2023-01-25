@@ -23,8 +23,38 @@
   </head>
   <body>
     <div id="app">
+      <div class="hamburger-menu">
+        <button class="hamburger-btn">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </button>
+
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Marketplace</a>
+            </li>
+            <li>
+              <a href="#">Artist</a>
+            </li>
+            <li>
+            <a href="#">Community</a> 
+            </li>
+          </ul>
+        </nav>
+
+        <div class="btn-wrapper">
+          <button class="main-btn">Log in</button>
+          <button class="main-btn -no-bg">Sign up</button>
+        </div>
+      </div>
+
       <header class="main-header">
-        <a class="main-logo" href="#">
+        <a class="logo" href="#">
           <img src="src/assets/images/logo.png" alt="">
         </a>
 
@@ -48,8 +78,15 @@
         <div class="btn-wrapper">
           <button class="main-btn">Log in</button>
           <button class="main-btn -no-bg">Sign up</button>
+          <!-- <button class="hamburger-btn">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </button> -->
         </div>
       </header>
+
+      <script src="index.js"></script>
     </div>
   </body>
 </html>
