@@ -4,8 +4,11 @@
 }
 
 .main-header {
+  width: 100%;
   justify-content: space-between;
+
   margin-top: 3.8rem;
+  margin-bottom: 9.1rem;
 }
 
 .main-header .logo {
