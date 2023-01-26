@@ -4,7 +4,7 @@
   gap: 4.3rem;
 }
 
-.main-banner .title {
+.main-banner h1 {
   font-size: clamp(4rem, 9.6rem, 6vw);
   margin-bottom: 3.2rem;
 
