@@ -15,3 +15,10 @@
 .main-banner p {
   margin-bottom: 6rem;
 }
+
+.main-banner .wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
