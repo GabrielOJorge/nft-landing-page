@@ -1,0 +1,5 @@
+.main-banner {
+  display: flex;
+  align-items: center;
+  gap: 4.3rem;
+}
