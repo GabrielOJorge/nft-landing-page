@@ -11,3 +11,7 @@
   color: transparent;
   background: url(/src/assets/images/banner-title-bg.png) right text;
 }
+
+.main-banner p {
+  margin-bottom: 6rem;
+}
