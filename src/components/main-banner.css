@@ -24,8 +24,7 @@
 
 .main-banner .wrapper {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 2.4rem;
 }
 
