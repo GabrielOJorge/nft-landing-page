@@ -43,3 +43,9 @@
     display: block;
   }
 }
+
+@media (min-width: 400px) {
+  .main-banner .wrapper {
+    flex-direction: row;
+  }
+}
