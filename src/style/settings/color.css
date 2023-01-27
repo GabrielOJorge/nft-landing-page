@@ -1,11 +1,19 @@
 :root {
   --black-900: #04040c;
+
+  --gray-900-with-low-opacity: #11111100;
   --gray-50: #f0f0f0;
+
   --violet-600: #5C43F6;
   --violet-100: #535488;
   --violet-100-low-opacity: #5354881c;
   --violet-50-low-opacity: #869bdf14;
+
+  --purple-700-with-low-opacity: #6f1adb42;
+
   --fuchsia-500: #bc61f3;
+
   --indigo-900: #3a3653;
+
   --gradient-violet-fuchsia: linear-gradient(#5C43F6, #bc61f3);
 }
