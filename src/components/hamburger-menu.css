@@ -6,16 +6,16 @@
 
 .hamburger-menu {
   position: fixed;
-  left: -50rem;
+  left: -100vw;
   
-  width: 25rem;
+  width: 100vw;
   height: 100%;
   gap: 2.4rem;
 
   padding-top: 14rem;
-  padding-left: 2.7%;
+  padding-left: 2.5%;
 
-  background-color: rgba(134, 155, 223, 14%);
+  background-color: var(--violet-100);
   transition: .5s;
 }
 
