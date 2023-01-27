@@ -32,6 +32,7 @@ h1, h2 {
 
 p {
   font-size: clamp(1.4rem, 1.9rem, 2vw);
+  line-height: 183%;
 }
 
 #app {
