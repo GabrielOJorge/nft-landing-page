@@ -22,3 +22,19 @@
   flex-wrap: wrap;
   gap: 2.4rem;
 }
+
+.main-banner img {
+  display: none;
+  width: clamp(42.3rem, 82.3rem, 40vw);
+  height: clamp(42.3rem, 82.3rem, 40vw);
+  background: var(--violet-50-low-opacity);
+
+  border-radius: 100%;
+  border: .4rem solid var(--violet-100-low-opacity);
+}
+
+@media (min-width: 1000px) {
+  .main-banner img {
+    display: block;
+  }
+}
