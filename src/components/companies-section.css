@@ -1,0 +1,7 @@
+.companies-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: min(11.2rem, 5vw);
+}
