@@ -5,3 +5,7 @@
   flex-wrap: wrap;
   gap: min(11.2rem, 5vw);
 }
+
+.companies-section img {
+  width: min(24rem, 50%);
+}
