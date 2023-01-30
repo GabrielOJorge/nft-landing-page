@@ -4,6 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: min(11.2rem, 5vw);
+  margin-bottom: 19rem;
 }
 
 .companies-section img {
