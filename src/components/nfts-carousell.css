@@ -9,3 +9,21 @@
   align-items: center;
   gap: 5rem;
 }
+
+.nfts-carousell .card {
+  background: center no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.nfts-carousell .axe {
+  background-image: url(./../assets/images/lighting-axe.png);
+}
+
+.nfts-carousell .skeleton {
+  background-image: url(./../assets/images/skeleton-head.png);
+}
+
+.nfts-carousell .breath {
+  background-image: url(./../assets/images/hard-breath.png);
+}
