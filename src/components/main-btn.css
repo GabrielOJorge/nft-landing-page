@@ -14,3 +14,7 @@
   border-image-slice: 1;
   border-image-source: var(--gradient-violet-fuchsia);
 }
+
+.main-btn.-rounded {
+  border-radius: 1rem;
+}
