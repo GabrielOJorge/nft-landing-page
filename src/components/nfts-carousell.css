@@ -23,6 +23,8 @@
 
 .nfts-carousell img {
   border-radius: 100%;
+  width: min(3.6rem, 100%);
+  height: min(3.6rem, 100%);
 }
 
 .nfts-carousell .axe {
