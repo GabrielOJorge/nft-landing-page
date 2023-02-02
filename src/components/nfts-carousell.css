@@ -44,6 +44,11 @@
 
 .nfts-carousell .info div:first-of-type {
   justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nfts-carousell .info div:last-of-type {
+  margin-bottom: 2.4rem;
 }
 
 .nfts-carousell .axe {
