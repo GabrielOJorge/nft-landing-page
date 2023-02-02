@@ -27,6 +27,15 @@
   height: min(3.6rem, 100%);
 }
 
+.nfts-carousell .info {
+  display: flex;
+  flex-direction: column;
+
+  background: var(--gray-100);
+  border-radius: 2.4rem;
+  padding: 2.4rem;
+}
+
 .nfts-carousell .info div {
   display: flex;
   align-items: center;
