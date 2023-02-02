@@ -17,6 +17,10 @@
   border-radius: 1rem;
 }
 
+.nfts-carousell h2 {
+  margin-bottom: 6rem;
+}
+
 .nfts-carousell .axe {
   background-image: url(./../assets/images/lighting-axe.png);
 }
@@ -28,3 +32,4 @@
 .nfts-carousell .breath {
   background-image: url(./../assets/images/hard-breath.png);
 }
+
