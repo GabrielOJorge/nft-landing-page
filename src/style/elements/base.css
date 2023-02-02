@@ -36,6 +36,12 @@ h2 {
   font-size: clamp(2.6rem, 5.6rem, 4vw);
 }
 
+h3 {
+  font-size: clamp(1.4rem, 2.2rem, 2vw);
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
 p {
   font-size: clamp(1.4rem, 1.9rem, 2vw);
   line-height: 183%;
