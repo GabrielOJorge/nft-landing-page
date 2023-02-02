@@ -7,8 +7,11 @@
 
 .nfts-carousell .wrapper {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 5rem;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .nfts-carousell .card {
