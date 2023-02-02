@@ -31,6 +31,11 @@ h1, h2 {
   font-weight: 900;
 }
 
+h2 {
+  color: var(--gray-100);
+  font-size: clamp(2.6rem, 5.6rem, 4vw);
+}
+
 p {
   font-size: clamp(1.4rem, 1.9rem, 2vw);
   line-height: 183%;
