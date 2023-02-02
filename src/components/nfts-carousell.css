@@ -18,6 +18,9 @@
   background: center no-repeat;
   background-size: cover;
   border-radius: 1rem;
+  width: min(52rem, 80%);
+  height: min(63.2rem, 100vw);
+  padding: 0 4rem;
 }
 
 .nfts-carousell h2 {
