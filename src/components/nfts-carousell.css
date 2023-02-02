@@ -27,6 +27,12 @@
   height: min(3.6rem, 100%);
 }
 
+.nfts-carousell .info div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .nfts-carousell .axe {
   background-image: url(./../assets/images/lighting-axe.png);
 }
