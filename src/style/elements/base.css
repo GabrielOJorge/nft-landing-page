@@ -33,17 +33,17 @@ h1, h2 {
 
 h2 {
   color: var(--gray-100);
-  font-size: clamp(2.6rem, 5.6rem, 4vw);
+  font-size: clamp(3rem, 5vw, 5.6rem);
 }
 
 h3 {
-  font-size: clamp(1.4rem, 2.2rem, 2vw);
+  font-size: clamp(1.4rem, 2.6vw, 2.2rem);
   font-weight: 800;
   text-transform: capitalize;
 }
 
 h4 {
-  font-size: clamp(1.2rem, 2rem, 2vw);
+  font-size: clamp(1.2rem, 2vw, 2rem);
   font-weight: 500;
 }
 
