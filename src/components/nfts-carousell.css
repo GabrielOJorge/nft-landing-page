@@ -21,6 +21,10 @@
   margin-bottom: 6rem;
 }
 
+.nfts-carousell img {
+  border-radius: 100%;
+}
+
 .nfts-carousell .axe {
   background-image: url(./../assets/images/lighting-axe.png);
 }
