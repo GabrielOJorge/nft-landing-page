@@ -33,6 +33,10 @@
   gap: 1rem;
 }
 
+.nfts-carousell .info div:first-of-type {
+  justify-content: space-between;
+}
+
 .nfts-carousell .axe {
   background-image: url(./../assets/images/lighting-axe.png);
 }
