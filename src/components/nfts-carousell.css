@@ -18,7 +18,7 @@
   background: center no-repeat;
   background-size: cover;
   border-radius: 1rem;
-  width: min(52rem, 80%);
+  width: clamp(22rem, 50em, 52rem);
   height: min(63.2rem, 100vw);
   padding: 0 4rem;
 }
