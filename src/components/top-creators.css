@@ -16,3 +16,11 @@
 .top-creators p {
   margin-bottom: 6rem;
 }
+
+.top-creators .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
