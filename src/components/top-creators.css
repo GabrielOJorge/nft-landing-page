@@ -4,3 +4,11 @@
   align-items: center;
   margin-bottom: 12.7rem;
 }
+
+.top-creators > div:first-of-type {
+  text-align: center;
+}
+
+.top-creators h2 {
+  margin-bottom: 2.4rem;
+}
