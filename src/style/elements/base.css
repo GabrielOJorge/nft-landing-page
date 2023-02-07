@@ -27,6 +27,10 @@ button {
   font-weight: 500;
 }
 
+h1, h2, h3 {
+  text-transform: capitalize;
+}
+
 h1, h2 {
   font-weight: 900;
 }
@@ -39,7 +43,6 @@ h2 {
 h3 {
   font-size: clamp(1.4rem, 2.6vw, 2.2rem);
   font-weight: 800;
-  text-transform: capitalize;
 }
 
 h4 {
