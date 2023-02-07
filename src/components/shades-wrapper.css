@@ -3,7 +3,6 @@
 }
 
 .shade {
-  /* overflow: hidden; */
   background: radial-gradient(50% 50% at 50% 50%, var(--purple-700-with-low-opacity) 0%, var(--gray-900-with-low-opacity) 100%);
   filter: blur(217px);
 }

@@ -24,6 +24,12 @@
     <link rel="stylesheet" href="src/components/shades-wrapper.css">
     <link rel="stylesheet" href="src/components/companies-section.css">
     <link rel="stylesheet" href="src/components/nfts-carousell.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
   </head>
   <body>
     <div class="shades-wrapper">
@@ -127,58 +133,67 @@
       <section class="nfts-carousell">
         <h2>Collect Some NFTs</h2>
 
-        <div class="wrapper">
-          <div class="card axe">
-            <div class="info">
-              <div>
-                <h3>Lighting Axe</h3>
-                <h3>0.36 eth</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card axe">
+                <div class="info">
+                  <div>
+                    <h3>Lighting Axe</h3>
+                    <h3>0.36 ETH</h3>
+                  </div>
+      
+                  <div>
+                    <img src="src/assets/images/profile1.png" alt="Loura's profile picture">
+                    <h4>Loura Chin</h4>
+                  </div>
+      
+                  <button class="main-btn -rounded">place a bid</button>
+                </div>
               </div>
-  
-              <div>
-                <img src="src/assets/images/profile1.png" alt="Loura's profile picture">
-                <h4>Loura Chin</h4>
+            </div>
+            <div class="swiper-slide">
+              <div class="card skeleton">
+                <div class="info">
+                  <div>
+                    <h3>Skeleton head</h3>
+                    <h3>0.29 ETH</h3>
+                  </div>
+      
+                  <div>
+                    <img src="src/assets/images/profile2.png" alt="Kelvin's profile picture">
+                    <h4>Kelvin Glan</h4>
+                  </div>
+      
+                  <button class="main-btn -rounded">place a bid</button>
+                </div>
               </div>
-  
-              <button class="main-btn -rounded">place a bid</button>
+            </div>
+            <div class="swiper-slide">
+              <div class="card breath">
+                <div class="info">
+                  <div>
+                    <h3>Hard breath</h3>
+                    <h3>0.22 ETH</h3>
+                  </div>
+      
+                  <div>
+                    <img src="src/assets/images/profile3.png" alt="Glam's profile picture">
+                    <h4>Glam Lee</h4>
+                  </div>
+      
+                  <button class="main-btn -rounded">place a bid</button>
+                </div>
+              </div>
             </div>
           </div>
-  
-          <div class="card skeleton">
-            <div class="info">
-              <div>
-                <h3>Skeleton head</h3>
-                <h3>0.29 eth</h3>
-              </div>
-  
-              <div>
-                <img src="src/assets/images/profile2.png" alt="Kelvin's profile picture">
-                <h4>Kelvin Glan</h4>
-              </div>
-  
-              <button class="main-btn -rounded">place a bid</button>
-            </div>
-          </div>
-  
-          <div class="card breath">
-            <div class="info">
-              <div>
-                <h3>Hard breath</h3>
-                <h3>0.22 eth</h3>
-              </div>
-  
-              <div>
-                <img src="src/assets/images/profile3.png" alt="Glam's profile picture">
-                <h4>Glam Lee</h4>
-              </div>
-  
-              <button class="main-btn -rounded">place a bid</button>
-            </div>
-          </div>
+
+          <div class="swiper-pagination"></div>
         </div>
       </section>
     </div>
 
     <script src="index.js"></script>
+    <script src="swiper.js"></script>
   </body>
 </html>

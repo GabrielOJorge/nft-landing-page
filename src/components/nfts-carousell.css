@@ -3,24 +3,18 @@
   flex-direction: column;
   align-items: center;
   color: var(--black-900);
-}
-
-.nfts-carousell .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  width: 100%;
-  flex-wrap: wrap;
+  height: 94rem;
 }
 
 .nfts-carousell .card {
   background: center no-repeat;
   background-size: cover;
   border-radius: 1rem;
-  width: clamp(22rem, 50em, 52rem);
+  width: min(52rem, 100%);
   height: min(63.2rem, 100vw);
   padding: 0 4rem;
+  margin: 0 auto;
+  margin-bottom: 15rem;
 }
 
 .nfts-carousell h2 {
@@ -43,7 +37,7 @@
 
   background: var(--gray-100);
   border-radius: 2.4rem;
-  padding: 2.4rem;
+  padding: 1.4rem;
 }
 
 .nfts-carousell .info div {
@@ -58,7 +52,7 @@
 }
 
 .nfts-carousell .info div:last-of-type {
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.4rem;
 }
 
 .nfts-carousell .axe {
@@ -73,3 +67,36 @@
   background-image: url(./../assets/images/hard-breath.png);
 }
 
+.swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  --swiper-navigation-color: #d9d8e2;
+  --swiper-pagination-color: #d9d8e2;
+
+  --swiper-pagination-bullet-size: 20px;
+  --swiper-pagination-bullet-inactive-color: #595572;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+@media (min-width: 420px) {
+  .nfts-carousell .info {
+    padding: 2.4rem;
+  }
+
+  .nfts-carousell .info div:last-of-type {
+    margin-bottom: 2.4rem;
+  }
+
+  .swiper {
+    --swiper-pagination-bullet-size: 20px;
+  }
+}
+
+@media (min-width: 750px) {
+  .swiper {
+    --swiper-pagination-bullet-size: 30px;
+  }
+}
