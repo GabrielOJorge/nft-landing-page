@@ -4,7 +4,7 @@
   padding: 1.5rem 4.3rem;
   text-transform: capitalize;
 
-  font-size: clamp(1.2rem, 1.9rem, 3vw);
+  font-size: clamp(1.4rem, 1.9rem, 3vw);
 }
 
 .main-btn.-no-bg {
