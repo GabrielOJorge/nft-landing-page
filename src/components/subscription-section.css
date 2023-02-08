@@ -9,3 +9,11 @@
 .subscription-section img {
   width: min(61.6rem, 100%);
 }
+
+.subscription-section h2 {
+  margin-bottom: 3.5rem;
+}
+
+.subscription-section p {
+  margin-bottom: 6rem;
+}
