@@ -17,7 +17,9 @@
   margin-bottom: 3.2rem;
 
   color: transparent;
-  background: url(../assets/images/banner-title-bg.png) right text;
+  background: url(../../src/assets/images/banner-title-bg.png) right;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .main-banner p {
