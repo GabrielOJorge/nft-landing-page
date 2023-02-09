@@ -55,6 +55,16 @@ p {
   line-height: 183%;
 }
 
+input[type="email"] {
+  background: none;
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.6rem, 1.9rem, 2vw);
+  color: var(--gray-50);
+  outline: none;
+}
+
 #app {
   width: min(95%, 166rem);
 }
