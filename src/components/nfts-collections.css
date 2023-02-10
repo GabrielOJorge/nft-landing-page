@@ -30,6 +30,16 @@
   flex-wrap: wrap;
 }
 
+.nfts-collections .collection {
+  background: var(--violet-50-opacity-24);
+  border: .2rem solid var(--violet-100-opacity-40);
+  border-top-left-radius: 23rem;
+  border-top-right-radius: 23rem;
+  border-bottom-left-radius: 23rem;
+  border-bottom-right-radius: 23rem;
+  padding: 3.5rem 3.5rem 8.7rem;
+}
+
 @media (min-width: 1300px) {
   .nfts-collections .collections {
     flex-wrap: nowrap;
