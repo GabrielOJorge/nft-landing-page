@@ -1,0 +1,28 @@
+.circle-wrapper {
+  display: none;
+}
+
+.circle-wrapper .circle {
+  position: absolute;
+  width: min(348px, 100%);
+  height: min(348px, 100%);
+  background: none;
+  border: .2rem solid var(--violet-100-opacity-40);
+  border-radius: 100%;
+}
+
+.circle-wrapper .circle1 {
+  left: -29rem;
+  top: 40rem;
+}
+
+.circle-wrapper .circle2 {
+  left: -14rem;
+  top: 57rem;
+}
+
+@media (min-width: 1601px) {
+  .circle-wrapper {
+    display: initial;
+  }
+}

@@ -8,6 +8,10 @@
   margin-bottom: 12.6rem;
 }
 
+.subscription-section > div:first-of-type {
+  position: relative;
+}
+
 .subscription-section img {
   width: min(61.6rem, 100%);
 }
