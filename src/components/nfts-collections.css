@@ -21,3 +21,17 @@
 .nfts-collections h3 {
   margin-bottom: 1.4rem;
 }
+
+.nfts-collections .collections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1300px) {
+  .nfts-collections .collections {
+    flex-wrap: nowrap;
+  }
+}
