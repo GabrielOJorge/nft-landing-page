@@ -14,10 +14,6 @@
   transition: all .2s ease;
 }
 
-.main-navigation a:hover {
-  color: var(--fuchsia-500);
-}
-
 .main-navigation a:hover::after {
   background: var(--indigo-900);
 }
