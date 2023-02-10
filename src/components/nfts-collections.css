@@ -5,3 +5,15 @@
   text-align: center;
   gap: 6rem;
 }
+
+.nfts-collections h2 {
+  margin-bottom: 2.4rem;
+}
+
+.nfts-collections img {
+  margin-bottom: 4rem;
+}
+
+.nfts-collections h3 {
+  margin-bottom: 1.4rem;
+}
