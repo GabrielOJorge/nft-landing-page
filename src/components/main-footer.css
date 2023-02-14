@@ -6,7 +6,6 @@
 .main-footer {
   align-items: center;
   margin-bottom: 10rem;
-  /* overflow: hidden; */
 }
 
 .main-footer > div:first-of-type {
@@ -32,6 +31,7 @@
 .main-footer .socials .fa-brands {
   background: var(--gradient-violet-fuchsia);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 
   font-size: 1.5rem;
