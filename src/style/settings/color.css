@@ -6,11 +6,15 @@
   --gray-50: #f0f0f0;
 
   --violet-600: #5C43F6;
+
   --violet-100: #535488;
   --violet-100-opacity-11: #5354881c;
+  --violet-100-opacity-30: #5354884d;
   --violet-100-opacity-40: #53548866;
-  --violet-50-opacity-14: #869bdf14;
-  --violet-50-opacity-24: #869bdf24;
+  
+  --violet-50-opacity-8: #869bdf14;
+  --violet-50-opacity-14: #869bdf24;
+  --violet-50-opacity-30: #869bdf4d;
 
   --purple-700-with-low-opacity: #6f1adb42;
 
