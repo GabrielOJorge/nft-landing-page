@@ -42,6 +42,10 @@
   border: .4rem solid var(--violet-100-opacity-11);
 }
 
+.main-banner button {
+  min-width: 21rem;
+}
+
 @media (min-width: 1000px) {
   .main-banner img {
     display: block;

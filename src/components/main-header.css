@@ -20,6 +20,10 @@
   gap: 1.8rem;
 }
 
+.main-header button {
+  min-width: 16.6rem;
+}
+
 .main-header nav, .main-header .main-btn {
   display: none;
 }
