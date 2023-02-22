@@ -1,0 +1,36 @@
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(10%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
+}
+
+.top-creators .card, .nfts-collections .collection, .companies-section img {
+  transform: translateX(-100%);
+}
+
+.top-creators .card.show, .nfts-collections .collection.show, .companies-section img.show {
+  transform: translateX(0);
+}
+
+.top-creators .card:nth-child(2), .nfts-collections .collection:nth-child(2), .companies-section img:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.top-creators .card:nth-child(3), .nfts-collections .collection:nth-child(3), .companies-section img:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.top-creators .card:nth-child(4), .nfts-collections .collection:nth-child(4), .companies-section img:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.companies-section img:nth-child(5) {
+  transition-delay: 800ms;
+}

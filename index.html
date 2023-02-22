@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="src/components/nfts-collections.css">
     <link rel="stylesheet" href="src/components/main-footer.css">
     <link rel="stylesheet" href="src/components/copyright-section.css">
+    <link rel="stylesheet" href="src/components/scroll-animation.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -39,12 +40,11 @@
   </head>
 
   <body>
-    <div class="shades-wrapper">
+    <div id="app">
       <div class="shade shade1"></div>
       <div class="shade shade2"></div>
-    </div>
+      <div class="shade shade3"></div>
 
-    <div id="app">
       <div class="hamburger-menu">
         <button class="hamburger-btn">
           <div id="bar1" class="bar"></div>
@@ -79,7 +79,7 @@
         </div>
       </div>
 
-      <header class="main-header">
+      <header class="main-header hidden">
         <a href="#">
           <img src="src/assets/images/logo.png" alt="logo">
         </a>
@@ -96,7 +96,7 @@
               <a href="#">Artist</a>
             </li>
             <li>
-             <a href="#">Community</a> 
+              <a href="#">Community</a> 
             </li>
           </ul>
         </nav>
@@ -107,7 +107,7 @@
         </div>
       </header>
 
-      <section class="main-banner">
+      <section class="main-banner hidden">
         <div>
           <h1>
             best NFTs
@@ -132,15 +132,15 @@
         <img src="src/assets/images/skull.png" alt="skull">
       </section>
 
-      <section class="companies-section">
-        <img src="src/assets/images/minicoin.png" alt="minicoin logo">
-        <img src="src/assets/images/blocktual.png" alt="blocktual logo">
-        <img src="src/assets/images/nextplanet.png" alt="nextplanet logo">
-        <img src="src/assets/images/jackpot.png" alt="jackpot logo">
-        <img src="src/assets/images/topup.png" alt="top up logo">
+      <section class="companies-section hidden">
+        <img class="hidden" src="src/assets/images/minicoin.png" alt="minicoin logo">
+        <img class="hidden" src="src/assets/images/blocktual.png" alt="blocktual logo">
+        <img class="hidden" src="src/assets/images/nextplanet.png" alt="nextplanet logo">
+        <img class="hidden" src="src/assets/images/jackpot.png" alt="jackpot logo">
+        <img class="hidden" src="src/assets/images/topup.png" alt="top up logo">
       </section>
 
-      <section class="nfts-carousell">
+      <section class="nfts-carousell hidden">
         <h2>Collect Some NFTs</h2>
 
         <div class="swiper">
@@ -202,7 +202,7 @@
         </div>
       </section>
 
-      <section class="top-creators">
+      <section class="top-creators hidden">
         <div>
           <h2>top creators</h2>
           <p>
@@ -215,7 +215,7 @@
         </div>
 
         <div class="wrapper">
-          <div class="card">
+          <div class="card hidden">
             <div class="profile">
               <img src="src/assets/images/profile1.png" alt="Loura's profile picture">
               <h3>loura chin</h3>
@@ -224,7 +224,7 @@
             <button class="main-btn -rounded">view details</button>
           </div>
 
-          <div class="card">
+          <div class="card hidden">
             <div class="profile">
               <img src="src/assets/images/profile2.png" alt="Kelvin's profile picture">
               <h3>kelvin glan</h3>
@@ -233,7 +233,7 @@
             <button class="main-btn -rounded">view details</button>
           </div>
 
-          <div class="card">
+          <div class="card hidden">
             <div class="profile">
               <img src="src/assets/images/profile3.png" alt="Glam's profile picture">
               <h3>glam lee</h3>
@@ -242,7 +242,7 @@
             <button class="main-btn -rounded">view details</button>
           </div>
 
-          <div class="card">
+          <div class="card hidden">
             <div class="profile">
               <img src="src/assets/images/profile4.png" alt="Alameda's profile picture">
               <h3>alameda</h3>
@@ -253,7 +253,7 @@
         </div>
       </section>
 
-      <section class="subscription-section">
+      <section class="subscription-section hidden">
         <div>
           <div class="circle-wrapper">
             <div class="circle circle1"></div>
@@ -287,32 +287,32 @@
         </div>
       </section>
 
-      <section class="nfts-collections">
+      <section class="nfts-collections hidden">
         <div>
           <h2>NFTs collections</h2>
           <p>Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue.</p>
         </div>
 
         <div class="collections">
-          <div class="collection">
+          <div class="collection hidden">
             <img src="src/assets/images/profile1.png" alt="Head with butterfly">
             <h3>broken collection</h3>
             <a href="#">view collection</a>
           </div>
           
-          <div class="collection">
+          <div class="collection hidden">
             <img src="src/assets/images/profile5.png" alt="Astronaut with neon">
             <h3>broken collection</h3>
             <a href="#">view collection</a>
           </div>
 
-          <div class="collection">
+          <div class="collection hidden">
             <img src="src/assets/images/profile6.png" alt="Psychedelic person">
             <h3>broken collection</h3>
             <a href="#">view collection</a>
           </div>
 
-          <div class="collection">
+          <div class="collection hidden">
             <img src="src/assets/images/profile7.png" alt="Red dice">
             <h3>broken collection</h3>
             <a href="#">view collection</a>
@@ -320,7 +320,7 @@
         </div>
       </section>
 
-      <footer class="main-footer">
+      <footer class="main-footer hidden">
         <div>
           <div class="socials">
             <img src="src/assets/images/logo.png" alt="NextGen logo">
@@ -367,8 +367,6 @@
           </div>
   
           <div class="links">
-            <div class="shade shade3"></div>
-
             <div>
               <h3>marketplace</h3>
     
@@ -456,7 +454,7 @@
           </div>
         </div>
       </footer>
-
+      
       <section class="copyright-section">
         <p>© 2022 Copyright <span><a href="https://templatesjungle.com/downloads/nextgen-free-nft-marketplace-figma-website-design/" target="_blank">TemplatesJungle</a></span>. All rights reserved</p>
       </section>
