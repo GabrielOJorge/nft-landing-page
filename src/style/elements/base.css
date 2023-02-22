@@ -2,9 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   height: 100vh;
-
   background: var(--black-900);
 
   font-family: 'Montserrat', sans-serif;
@@ -70,5 +68,5 @@ input[type="email"] {
 }
 
 #app {
-  width: min(95%, 166rem);
+  width: min(166rem, 95%);
 }
